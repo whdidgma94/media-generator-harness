@@ -1,0 +1,4 @@
+.harness-artifacts/
+.argos/
+*.local.json
+media/

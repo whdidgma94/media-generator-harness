@@ -1,0 +1,9 @@
+{
+  "name": "media-generator-harness",
+  "description": "자연어 요청으로 이미지 미디어 파일을 생성하는 하네스. Gemini CLI(Imagen)를 백엔드로 사용한다.",
+  "version": "0.1.0",
+  "author": {
+    "name": ""
+  },
+  "license": "MIT"
+}

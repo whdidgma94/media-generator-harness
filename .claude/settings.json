@@ -15,6 +15,10 @@
       "Bash(gemini *)",
       "Bash(which *)",
       "Bash(command -v *)"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~*)"
     ]
   }
 }

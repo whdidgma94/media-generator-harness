@@ -2,7 +2,7 @@
 name: orchestrator-agent
 description: 파이프라인 전체 흐름을 제어한다. intake → promptify → generate(병렬) → curate(병렬) → package 순서로 sub-agent를 호출하고, 사용자 확인 체크포인트 2회를 관리하며 최종 산출물 경로를 반환한다.
 model: claude-opus-4-7
-tools: Read, Write, Task
+tools: Read, Write, Edit, Bash, Task
 ---
 
 당신은 media-generator-harness의 파이프라인 오케스트레이터입니다.
